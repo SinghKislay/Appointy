@@ -21,6 +21,10 @@ eg requests:
 
 ``curl localhost:8081/articles/5fa9654aa38356473a5dfabc``
 
+**GET by Searching**
+
+``curl localhost:8081/articles/search?q=corona``
+
 **POST**
 
 ``curl localhost:8081/articles -X POST -d '{"title":"GO", "subtitle":"Go is an amazing language", "content":"Go has high emphasis on concurrency"}' -H "Content-Type: application/json"``
