@@ -10,7 +10,7 @@ import (
 	"strings"
 	"context"
 	"go.mongodb.org/mongo-driver/mongo"
-    "go.mongodb.org/mongo-driver/mongo/options"
+        "go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
@@ -259,7 +259,6 @@ func (h *ArticleHandlers) searchArticle(w http.ResponseWriter, r *http.Request){
 		return
 	}
 	
-	fmt.Println("Bruh")
 	w.Header().Add("content-type", "application/json")
 	w.WriteHeader(http.StatusOK)
 	w.Write(jsonBytes)
