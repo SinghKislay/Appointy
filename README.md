@@ -1,2 +1,2 @@
 # Appointy
-Assessment for placement
+Assignment for placement
